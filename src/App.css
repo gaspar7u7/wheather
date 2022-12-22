@@ -1,0 +1,53 @@
+body {
+  background-image: url(../94295.jpg);
+}
+#root {
+  font-family: San Francisco, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #007AFFaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10%;
+  background-color: #f9f9f9;
+}
+
+@media (prefers-color-scheme: light) {
+  .App {
+    background-color: #ffffff;
+  }
+}
